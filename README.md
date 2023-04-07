@@ -1,5 +1,3 @@
 # TIL
 
-My TIL repository.
-
-
+My TIL repository + other documentation of acquired knowledge.
