@@ -1,8 +1,8 @@
-## A bit about some basic types of Data Structures in Javascript.
+# A bit about some basic types of Data Structures in Javascript.
 
 Data Structures can be divided into two general types: **Linear Data Structure** and **Non-linear Data structure**. 
 
-###Linear Data Structures:
+##Linear Data Structures:
 
 **Arrays**: An array is a collection of elements, where each element can be accessed by its index number. 
   Arrays in JavaScript can store any type of data, and their length can be changed dynamically.
@@ -15,7 +15,7 @@ Data Structures can be divided into two general types: **Linear Data Structure**
   In a stack, elements can only be added or removed from the top of the stack. 
   Stacks in JavaScript can be implemented using **arrays**, and they are useful when you need to keep track of a sequence of operations, such as in an undo/redo feature.
   
-###Non-linear Data Structures:
+##Non-linear Data Structures:
 
 **Trees**: Trees are a hierarchical data structure that can be used to represent a wide variety of real-world data. 
   In JavaScript, trees can be implemented using object literals or classes.
