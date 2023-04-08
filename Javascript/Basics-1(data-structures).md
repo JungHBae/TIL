@@ -1,4 +1,4 @@
-# A bit about some basic types of Data Structures in Javascript.#
+# A bit about some basic types of Data Structures in Javascript.
 
 Data Structures can be divided into two general types: **Linear Data Structure** and **Non-linear Data structure**. 
 
