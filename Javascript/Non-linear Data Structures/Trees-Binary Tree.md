@@ -41,79 +41,13 @@ because the left child's right child has a key greater than its parent.
 **Full binary tree:** A binary tree is said to be a full binary tree if every node in the tree has either zero or two children. 
 In other words, every node has either two or no children.  
 
-```mermaid
-graph TD
-    A((1))
-    B((2))
-    C((3))
-    D((4))
-    E((5))
-    F((6))
-    G((7))
-    A ---|L| B
-    A ---|R| C
-    B ---|L| D
-    B ---|R| E
-    C ---|L| F
-    C ---|R| G
-```  
-  
 **Complete binary tree:** A binary tree is said to be a complete binary tree if all levels of the tree are completely filled, 
-except possibly for the last level, which must be filled from left to right.  
+except possibly for the last level, which must be filled from left to right.   
 
-```mermaid
-graph TD
-    A((1))
-    B((2))
-    C((3))
-    D((4))
-    E((5))
-    F((6))
-    A ---|L| B
-    A ---|R| C
-    B ---|L| D
-    B ---|R| E
-    C ---|L| F
-```  
-  
-**Perfect binary tree:** A binary tree is said to be a perfect binary tree if all of its levels are completely filled.  
+**Perfect binary tree:** A binary tree is said to be a perfect binary tree if all of its levels are completely filled.    
 
-```mermaid
-graph TD
-    A((1))
-    B((2))
-    C((3))
-    D((4))
-    E((5))
-    F((6))
-    G((7))
-    H((8))
-    A ---|L| B
-    A ---|R| C
-    B ---|L| D
-    B ---|R| E
-    C ---|L| F
-    C ---|R| G
-    D ---|L| H
-```  
-  
 **Balanced binary tree:** A binary tree is said to be a balanced binary tree if the heights of its two subtrees never differ 
 by more than one. Some common types of balanced binary trees include AVL trees and Red-Black trees.  
 
-```mermaid
-graph TD
-    A((1))
-    B((2))
-    C((3))
-    D((4))
-    E((5))
-    F((6))
-    G((7))
-    A ---|L| B
-    A ---|R| C
-    B ---|L| D
-    B ---|R| E
-    C ---|L| F
-    C ---|R| G
-```  
+
 
