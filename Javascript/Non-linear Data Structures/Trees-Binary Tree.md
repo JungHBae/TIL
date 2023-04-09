@@ -29,9 +29,9 @@ graph TD
     C --- G
 ```
 
-In this example, the root node has a key of 50, its left child has a key of 30, and its right child 
-has a key of 70. The left child has two children of its own with keys of 20 and 40, and the right 
-child has two children of its own with keys of 60 and 80. This binary tree is not a binary search tree 
+In this example, the root node has a key of 1, its left child has a key of 2, and its right child 
+has a key of 3. The left child has two children of its own with keys of 4 and 5, and the right 
+child has two children of its own with keys of 6 and 7. This binary tree is not a binary search tree 
 because the left child's right child has a key greater than its parent.  
 
 ## Types of Binary Trees
