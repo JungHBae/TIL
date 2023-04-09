@@ -13,7 +13,7 @@ ES6 (ECMAScript 2015) was a major update to the language, adding many new featur
 over the previous version, ES5. Since then, new versions of the language, ES7, ES8, ES9, ES10, and 
 ES11, have been released with even more new features.
 
-### Important Changes
+### Some Notable Changes ES6+
 
  **Let and Const keywords:** In ES5, variables could only be declared with the var keyword, which had some 
  unexpected behaviors. ES6 introduced the let and const keywords, which provide block-scoped variable 
