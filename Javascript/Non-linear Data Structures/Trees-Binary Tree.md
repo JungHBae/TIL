@@ -116,45 +116,4 @@ graph TD
     C ---|L| F
     C ---|R| G
 ```  
-  
-**Degenerate (or pathological) binary tree:** A binary tree is said to be degenerate if each parent node has only one associated child node.  
 
-```mermaid
-graph TD
-    A((1))
-    B((2))
-    C((3))
-    D((4))
-    E((5))
-    F((6))
-    G((7))
-    A ---|R| B
-    B ---|R| C
-    C ---|R| D
-    D ---|R| E
-    E ---|R| F
-    F ---|R| G
-```  
-  
-**Skewed binary tree:** A binary tree is said to be skewed if all of its nodes are either left or right child of its root node. 
-A skewed binary tree can be left-skewed or right-skewed.  
-
-```mermaid
-graph TD
-    A(1)
-    B(2)
-    C(3)
-    D(4)
-    E(5)
-    F(6)
-    G(7)
-    H(8)
-    A-->B
-    B-->C
-    C-->D
-    D-->E
-    E-->F
-    F-->G
-    G-->H
-```  
-  
