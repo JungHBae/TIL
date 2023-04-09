@@ -2,8 +2,8 @@
 
 ## What is a Tree?
 
- A tree is a data structure that represents a *hierarchical structure*. 
- It is composed of *nodes* that are connected to each other by *edges*. 
+ A tree is a data structure that represents a **hierarchical structure**. 
+ It is composed of **nodes** that are connected to each other by **edges**. 
  The topmost node of the tree is called the root node, and each node can have zero or more child nodes. 
  The nodes that have no children are called leaf nodes.
  
@@ -17,18 +17,18 @@ graph TD;
 ```
 
 
- Trees are a specific type of graph where there is a *hierarchical relationship* among the nodes. 
- Unlike general graphs, trees don't have *cycles*, which means that there is exactly one path between 
+ Trees are a specific type of graph where there is a **hierarchical relationship** among the nodes. 
+ Unlike general graphs, trees don't have **cycles**, which means that there is exactly one path between 
  any two nodes in the tree. 
 
- Another difference between trees and general graphs is that in trees, there is a single node called the *root* from 
+ Another difference between trees and general graphs is that in trees, there is a single node called the **root** from 
  which all other nodes are descendants. This property makes it easy to define a hierarchy of relationships among nodes, 
  which is not the case in general graphs.
 
- The parent-child relationship in trees also enables the *efficient traversal* and searching of the tree. For example, in a 
+ The parent-child relationship in trees also enables the **efficient traversal** and searching of the tree. For example, in a 
  binary search tree, we can easily search for a specific value by starting at the root and comparing the value with each 
- node along the way. If the value is less than the current node, we move to the left child, and if it is greater, 
- we move to the right child. This process continues until we find the node containing the desired value or reach a leaf node 
+ node along the way. If the value is **less** than the current node, we move to the **left child**, and if it is **greater**, 
+ we move to the **right child**. This process continues until we find the node containing the desired value or reach a leaf node 
  that does not contain the value. This efficient searching is not always possible in general graphs due to the lack of a clear 
  hierarchy of relationships.
 
@@ -36,11 +36,11 @@ graph TD;
  This makes it easy to traverse the tree and find information, as there is no possibility of getting stuck in an infinite loop or visiting 
  the same node multiple times.
 
- In addition, having no cycles makes it easier to reason about the structure and behavior of a tree, since cycles can introduce non-deterministic 
+ In addition, having no cycles makes it easier to reason about the **structure** and **behavior** of a tree, since cycles can introduce non-deterministic 
  behavior and complicate analysis. For example, in a graph with cycles, it may be difficult to determine the shortest path between two nodes, 
  since there may be multiple paths that include cycles.
 
- By restricting the structure of a tree to be acyclic, we limit the number of possible paths and prevent infinite loops that could occur in a graph.
+ By restricting the structure of a tree to be **acyclic**, we limit the number of possible paths and prevent infinite loops that could occur in a graph.
  This makes it easier to reason about and manipulate tree data structures. For example, with a tree, we can perform traversal algorithms 
  (like preorder, inorder, and postorder) to visit every node in a predictable and efficient order, while with a graph, we need to consider 
  more complex algorithms that take cycles into account.
