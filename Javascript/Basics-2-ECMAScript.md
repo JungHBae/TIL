@@ -149,7 +149,7 @@ fetchData()
   .catch(error => console.error(error));
 ```  
 
-   **Async / await**
+   **async / await:**
 ```javascript
 async function fetchData() {
   try {
