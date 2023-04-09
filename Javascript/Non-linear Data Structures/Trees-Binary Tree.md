@@ -34,7 +34,7 @@ has a key of 70. The left child has two children of its own with keys of 20 and 
 child has two children of its own with keys of 60 and 80. This binary tree is not a binary search tree 
 because the left child's right child has a key greater than its parent.  
 
-## Types of Binary Tree
+## Types of Binary Trees
 
  **There are several types of common binary trees:**  
  
