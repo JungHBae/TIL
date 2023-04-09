@@ -19,7 +19,6 @@ A3
 A4
 end
 subgraph Buckets
-  style padding:10px,rounded;
   subgraph index
     C 
     D 
