@@ -52,6 +52,7 @@ graph TD;
  Binary search trees and balanced trees like AVL and Red-Black trees can perform operations 
  like search, insertion, and deletion in O(log n) time complexity.
 
+```mermaid
 graph TD
     subgraph Trees
     A((Root))
@@ -81,7 +82,7 @@ graph TD
     I --O(log n)--> 
     J --O(log n)--> 
     end
-
+```
 
 **Hierarchical structure:** Trees represent a hierarchical structure that is easy to understand 
 and interpret. This structure makes it easy to organize and store data.
