@@ -14,13 +14,13 @@ implement many other data structures, including binary heaps and binary search t
 
 ```mermaid
 graph TD
-    A((50))
-    B((30))
-    C((70))
-    D((20))
-    E((40))
-    F((60))
-    G((80))
+    A((1))
+    B((2))
+    C((3))
+    D((4))
+    E((5))
+    F((6))
+    G((7))
     A --- B
     A --- C
     B --- D
