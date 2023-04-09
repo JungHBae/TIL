@@ -11,15 +11,41 @@
  When a value is to be retrieved, the key is hashed again to obtain the corresponding index in the array, and the value stored at that index is returned.
  
  ```mermaid
- graph LR
- A[Hash Table] --> B[Hash Function]
- B --> C[Hash Value]
- C --> D{Collision?}
- D -- Yes --> E[Chaining]
- D -- No --> F[Store Value]
- E --> G[Linked List 1]
- E --> H[Linked List 2]
- F --> I[Array Index]
+graph LR
+subgraph Keys
+A1
+A2
+A3
+A4
+end
+subgraph Buckets
+  style padding:10px,rounded;
+  subgraph index
+    C 
+    D 
+    E 
+    F
+  end
+  subgraph value
+    G
+    H
+    I
+    J
+  end
+end
+A1[Key 1] --> B[Hash Function]
+A2[Key 2] --> B[Hash Function]
+A3[Key 3] --> B[Hash Function]
+A4[Key 4] --> B[Hash Function]
+B --> C[00]
+B --> D[01]
+B --> E[02]
+B --> F[03]
+C --> G[(value)]
+D --> H[(value)]
+E --> I[(value)]
+F --> J[(value)]
+
 ```
 
  Hash tables are very efficient for storing and retrieving key-value pairs, because the **lookup time is constant** on average, 
