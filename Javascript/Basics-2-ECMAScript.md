@@ -135,34 +135,34 @@ console.log(arr3); // Output: [1, 2, 3, 4, 5, 6]
  elegant way of handling asynchronous code compared to callbacks.  
  
    **Promise:**
-    ```javascript
-    function fetchData() {
-      return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve('Data successfully fetched.');
-        }, 2000);
-      });
-    }
+```javascript
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('Data successfully fetched.');
+    }, 2000);
+  });
+}
 
-    fetchData()
-      .then(data => console.log(data))
-      .catch(error => console.error(error));
-    ```  
+fetchData()
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+```  
 
    **Async / await**
-    ```javascript
-    async function fetchData() {
-      try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-        const data = await response.json();
-        console.log(data);
-      } catch (error) {
-        console.error(error);
-      }
-    }
+```javascript
+async function fetchData() {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
 
-    fetchData();
-    ```  
+fetchData();
+```  
 
  **Modules:** ES6 introduces a new syntax for defining modules in JavaScript. This allows you to encapsulate code and define 
  dependencies between modules. It also provides a more structured way of organizing your code.
