@@ -33,7 +33,7 @@ flowchart LR
  **Next**, the generated AST is compiled into machine code. 
  
  **Finally**, the compiled machine code gets immediately executed. Execution happens in the javascript engine's **call stack**.
- 
+ ```mermaid
  flowchart TB
     subgraph Parsing
         P1[Tokenize] --> P2[Parse]
@@ -51,6 +51,7 @@ flowchart LR
     P2 --> C1
     C3 --> E1
     E2 --> C4
+ ```
  
   ## Javascript Runtime in the Browser
   
