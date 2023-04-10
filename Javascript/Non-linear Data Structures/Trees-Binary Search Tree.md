@@ -10,13 +10,13 @@ if the value you are searching for is **greater** than the value of the current 
 **left** subtree of the current node from consideration. This reduces the search space to a smaller subset of the tree, 
 making searches faster.  
   
-     8
-    / \
-   3   10
-  / \    \
- 1   6    14
-    / \   /
-   4   7 13
+           8
+          / \
+         3   10
+        / \    \
+       1   6    14
+          / \   /
+         4   7 13
 
 
 In this example, each node is greater than all nodes in its left subtree and less than all nodes in its right subtree. 
