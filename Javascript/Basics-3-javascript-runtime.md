@@ -21,6 +21,6 @@ flowchart LR
  
   ```mermaid
 flowchart LR
-    A[Source code]-->|Step 1 :<br/>Compilation|B[Machine code (not a portable file)]
-    B[Machine code]-->|Step 2 :<br/>Execution(happens immediately)|C[Program running]
+    A[Source code]-->|Step 1 :<br/>Compilation|B[Machine code, but NOT a portable file]
+    B[Machine code]-->|Step 2 :<br/>Execution happens immediately|C[Program running]
  ```
