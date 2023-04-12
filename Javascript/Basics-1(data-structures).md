@@ -26,7 +26,7 @@ Stacks in JavaScript can be implemented using **arrays**, and they are useful wh
 ### Trees
 
 Trees are a hierarchical data structure that can be used to represent a wide variety of real-world data. 
-In JavaScript, trees can be implemented using object literals or classes.
+In JavaScript, trees can be implemented using **object literals** or **classes**.
 
 ### Graphs
 
@@ -46,4 +46,4 @@ In JavaScript, maps can be implemented using the built-in **Map** object.
 ### Hash Tables
 
 Hash tables are a data structure that use a hash function to map keys to their corresponding values. 
-In JavaScript, hash tables can be implemented using **object literals** or the **Map** object.
+In JavaScript, hash tables are in a way partially implemented using **object literals** or the **Map** object.
