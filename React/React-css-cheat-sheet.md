@@ -1,4 +1,6 @@
-1. shadow related, hover transitions  
+## General css  
+
+**shadow related, hover transitions**  
 
 ```css
 .shadow {
@@ -18,8 +20,14 @@
 }
 ```  
 
-2. Variables  
-3. 
+## Scss  
+**Import**
+common.scss > style.scss, can pass variables
+
+> @import ""
+
+**Variables**  
+
 ```css
 $something: #125121
 
@@ -28,7 +36,7 @@ div {
 }
 ```  
 
-3. Nesting  
+**Nesting**  
 
 ```scss
 something{
