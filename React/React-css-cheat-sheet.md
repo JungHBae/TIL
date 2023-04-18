@@ -18,8 +18,10 @@
               0 16px 32px rgba(0,0,0,0.2),
               0 32px 64px rgba(0,0,0,0.2);
 }
-```  
-
+``` 
+**Jumping Scrollbar**  
+html { margin-left: calc(100vw - 100%); }  
+  
 ## Scss  
 **Import**
 common.scss > style.scss, can pass variables
