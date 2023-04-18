@@ -49,3 +49,15 @@ something{
     color: white
   }
 }
+
+
+## Validation
+
+number to string >  
+
+```javascript
+const num = 1234567.89;
+const options = { style: 'currency', currency: 'USD', minimumFractionDigits: 2 };
+const str = num.toLocaleString('en-US', options);
+console.log(str); // "$1,234,567.89"
+```  
