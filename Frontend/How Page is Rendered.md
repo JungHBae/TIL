@@ -21,7 +21,21 @@ After the layout is determined, the browser goes through the "painting" phase. D
 Once the painting is complete, the browser may perform compositing if necessary. Compositing involves layering individual paint layers to create the final frame that will be displayed on the screen. This process allows the browser to optimize rendering and improve performance, especially when dealing with animations and complex visual effects.
 
 **Rendering the Page:**  
-Finally, the composed frame is displayed on the user's screen, creating the visible representation of the web page.
+Finally, the composed frame is displayed on the user's screen, creating the visible representation of the web page.  
+
+```mermaid
+graph TD;
+    A[HTML file] --> B[DOM tree];
+    A -- Download external resources --> C[CSS file];
+    A -- Download external resources --> D[Javascript file];
+    C --> E[Browser applies styles];
+    B --> E;
+    D --> F[Browser parses JS];
+    F --> B;
+    E --> G[Render Tree];
+    B --> G;
+    G --> H[Browser layout and rendering];
+```  
 
 ## The React Way:  
 
