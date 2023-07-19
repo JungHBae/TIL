@@ -1,7 +1,10 @@
-A RESTful API (Representational State Transfer Application Programming Interface) is a type of web service that follows the principles and constraints of the REST architectural style. 
+# RESTful API
+
+## What is RESTful API?
+ - A RESTful API (Representational State Transfer Application Programming Interface) is a type of web service that follows the principles and constraints of the REST architectural style. 
 REST is an architectural style for designing networked applications, and RESTful APIs provide a standardized way for different software applications to communicate with each other over the internet.
 
-The key principles of a RESTful API include:  
+## Some key principles of a RESTful API:  
 
 **Statelessness:** Each request from a client to the server must contain all the information needed to understand and process the request. 
 The server should not store any client state between requests. Each request should be independent and self-contained.  
