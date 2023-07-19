@@ -25,16 +25,18 @@ Finally, the composed frame is displayed on the user's screen, creating the visi
 
 ```mermaid
 graph TD;
-    A[HTML file] --> B[DOM tree];
-    A -- Download external resources --> C[CSS file];
-    A -- Download external resources --> D[Javascript file];
-    C --> E[Browser applies styles];
-    B --> E;
-    D --> F[Browser parses JS];
-    F --> B;
-    E --> G[Render Tree];
-    B --> G;
-    G --> H[Browser layout and rendering];
+    A[Parsing HTML] -->|DOM tree| B[Generating DOM tree];
+    A -->|HTML code| C[Browser];
+    C --CSS parsing--> D[Parsing CSS files];
+    D -->|CSSOM| E[Styling elements];
+    B --CSSOM--> E;
+    B --Visible elements--> G[Creating Render Tree];
+    E --DOM tree and CSSOM data--> G;
+    G --Layout --> H[Calculating layout based on CSS styles and DOM structure];
+    H -->|Layout| I[Reflow the page];
+    G -->|Painting| J[Rendering visual elements on screen];
+    J -->|Compositing| K[Layering paint layers to create final frame];
+    K -->|Rendering| L[Displaying visual representation of page on screen];
 ```  
 
 ## The React Way:  
