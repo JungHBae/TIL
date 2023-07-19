@@ -19,8 +19,9 @@ Each resource is identified by a unique URL (Uniform Resource Locator).
  - GET: Retrieve a representation of a resource.
  - POST: Create a new resource.
  - PUT: Update an existing resource or create a new one if it doesn't exist.
- - DELETE: Remove a resource.
- - Uniform Interface: RESTful APIs have a uniform and consistent way of interacting with resources, using standard methods and HTTP status codes. This simplifies the API design and makes it easier to understand and use.  
+ - DELETE: Remove a resource.  
+
+**Uniform Interface:** RESTful APIs have a uniform and consistent way of interacting with resources, using standard methods and HTTP status codes. This simplifies the API design and makes it easier to understand and use.  
 
 **Representation:** Resources are represented in a format such as JSON (JavaScript Object Notation) or XML 
 (eXtensible Markup Language) to enable data exchange between the client and server.
