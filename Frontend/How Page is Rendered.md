@@ -23,22 +23,6 @@ Once the painting is complete, the browser may perform compositing if necessary.
 **Rendering the Page:**  
 Finally, the composed frame is displayed on the user's screen, creating the visible representation of the web page.  
 
-```mermaid
-graph TD;
-    A[Parsing HTML] -->|DOM tree| B[Generating DOM tree];
-    A -->|HTML code| C[Browser];
-    C --CSS parsing--> D[Parsing CSS files];
-    D -->|CSSOM| E[Styling elements];
-    B --CSSOM--> E;
-    B --Visible elements--> G[Creating Render Tree];
-    E --DOM tree and CSSOM data--> G;
-    G --Layout --> H[Calculating layout based on CSS styles and DOM structure];
-    H -->|Layout| I[Reflow the page];
-    G -->|Painting| J[Rendering visual elements on screen];
-    J -->|Compositing| K[Layering paint layers to create final frame];
-    K -->|Rendering| L[Displaying visual representation of page on screen];
-```  
-
 ## The React Way:  
 
 **Component Hierarchy:**  
